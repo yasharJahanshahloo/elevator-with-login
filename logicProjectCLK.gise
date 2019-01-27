@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="logicProjectCLK.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="elevator_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="elevator_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="final_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="final_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="keypadCombine_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="login_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testBench_final_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testBench_final_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="testBench_final_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="testbench_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1547989081" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1547989081">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1548093765" xil_pn:in_ck="-7141314046705047318" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1548093765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="C:/Users/Asus/Desktop/RAM.vhd"/>
+      <outfile xil_pn:name="C:/Users/Asus/Desktop/ram_usage.v"/>
+      <outfile xil_pn:name="D:/lc project/LCproject/TestBench.v"/>
+      <outfile xil_pn:name="D:/lc project/LCproject/movement.v"/>
+      <outfile xil_pn:name="final.v"/>
+      <outfile xil_pn:name="keypadCombine.v"/>
+      <outfile xil_pn:name="login.v"/>
+      <outfile xil_pn:name="testBench_final.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1548092730" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2835984076220688352" xil_pn:start_ts="1548092730">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1548092730" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="39398815427651480" xil_pn:start_ts="1548092730">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1547989081" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1372796751780349134" xil_pn:start_ts="1547989081">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1548093765" xil_pn:in_ck="-7141314046705047318" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1548093765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="C:/Users/Asus/Desktop/RAM.vhd"/>
+      <outfile xil_pn:name="C:/Users/Asus/Desktop/ram_usage.v"/>
+      <outfile xil_pn:name="D:/lc project/LCproject/TestBench.v"/>
+      <outfile xil_pn:name="D:/lc project/LCproject/movement.v"/>
+      <outfile xil_pn:name="final.v"/>
+      <outfile xil_pn:name="keypadCombine.v"/>
+      <outfile xil_pn:name="login.v"/>
+      <outfile xil_pn:name="testBench_final.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1548143289" xil_pn:in_ck="-7141314046705047318" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2572758235904723972" xil_pn:start_ts="1548143284">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testBench_final_beh.prj"/>
+      <outfile xil_pn:name="testBench_final_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1548143289" xil_pn:in_ck="1539966887104332451" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2141171026914625345" xil_pn:start_ts="1548143289">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="testBench_final_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

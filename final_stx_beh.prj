@@ -1,0 +1,6 @@
+verilog isim_temp "login.v"
+verilog isim_temp "keypadCombine.v"
+verilog isim_temp "../../lc project/LCproject/movement.v"
+verilog isim_temp "C:/Users/Asus/Desktop/ram_usage.v"
+verilog isim_temp "final.v"
+verilog isim_temp "E:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

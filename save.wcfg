@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/logicProject/logicProjectCLK/testBench_final_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testBench_final" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/testBench_final/door" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">door[2:0]</obj_property>
+      <obj_property name="ObjectShortName">door[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/dir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dir[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dir[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/reqin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reqin[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reqin[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/reqout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reqout[2:0]</obj_property>
+      <obj_property name="ObjectShortName">reqout[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/pres" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pres[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pres[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/keypadF1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">keypadF1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keypadF1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/keypadF2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">keypadF2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keypadF2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/keypadF3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">keypadF3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keypadF3[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/keypadIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">keypadIn[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keypadIn[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/fnl/lg/keypad" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">keypad[3:0]</obj_property>
+      <obj_property name="ObjectShortName">keypad[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/fnl/lg/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[5:0]</obj_property>
+      <obj_property name="ObjectShortName">state[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/fnl/elv/login" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">login</obj_property>
+      <obj_property name="ObjectShortName">login</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/fnl/elv/logout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">logout</obj_property>
+      <obj_property name="ObjectShortName">logout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/fnl/elv/flag" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">flag</obj_property>
+      <obj_property name="ObjectShortName">flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/fnl/elv/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testBench_final/fnl/elv/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+</wave_config>
